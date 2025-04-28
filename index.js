@@ -66,7 +66,7 @@ const drugs = [
 // Question 3
    const getDrugsByCategory = (category) => {
      return drugs.filter((each) => {
-     return each.category.toLowerCase() === category.toLowerCase()
+     return each.category === category
   })
 }
 
